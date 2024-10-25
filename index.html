@@ -1,167 +1,185 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+ <title>Reginald McLean</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+ <style>
+   .container { padding: 0 15px; }
+   
+   .row { margin: 0; }
+   
+   .col-md-8, .col-md-4 {
+       padding: 0 10px;
+   }
 
-    <title>Reginald McLean</title>
+   h2 { margin: 10px 0 5px 0; }
+   
+   p { margin: 0 0 10px 0; }
+   
+   .col-md-4 img {
+       max-width: 85%;
+       margin-bottom: 10px;
+   }
 
-    <meta name="author" content="Reginald McLean">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
-  </head>
+   .sidebar-name {
+       font-family: 'Oswald', sans-serif;
+       font-size: 32px;
+       margin: 5px 0;
+   }
 
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Reginald (Reggie) McLean
-                </p>
-                <p>I'm a PhD Candidate at <a href="https://www.torontomu.ca/">Toronto Metropolitan University</a> under the supervision of Dr. Nariman Farsad & Dr. Isaac Woungang.
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:reginaldkmclean@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/Reginald McLean Resume Feb 2024-1.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="data/ReggieMcLean.txt">Bio</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=gBBveasAAAAJ&hl=en&authuser=1">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://x.com/reggiemclean95">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/reginald-mclean/">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/ReggieMcLean.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/ReggieMcLean.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                  My research focuses on multi-task reinforcement learning and the introduction of generative modeling techniques to improve task learning.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-		<tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
-      <!-- <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
-          <source src="images/nuvo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/nuvo.jpg' width=100%>
-        </div>
-        <script type="text/javascript">
-          function nuvo_start() {
-            document.getElementById('nuvo_image').style.opacity = "1";
-          }
+   .social-links {
+       margin-top: 10px;
+   }
 
-          function nuvo_stop() {
-            document.getElementById('nuvo_image').style.opacity = "0";
-          }
-          nuvo_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://pratulsrinivasan.github.io/nuvo/">
-          <span class="papertitle">Nuvo: Neural UV Mapping for Unruly 3D Representations</span>
-        </a>
-        <br>
-        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-        <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>
-        <br>
-        <em>ECCV</em>, 2024
-        <br>
-        <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
-        /
-        <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
-        /
-        <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
-        <p></p>
-        <p>
-        Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
-        </p>
-      </td> 
-	-->
-    </tr>
-          </tbody></table>
+   .social-links dd {
+       margin: 5px 0;
+   }
 
-          
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Miscellanea</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            
-            <tr>
-		<!--
-              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
-              <td width="75%" valign="center">
-                <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
-                <br>
-                <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>
-                <br>
-                <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
-                <br>
-                <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>
-                <br>
-                <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-                <br>
-                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="images/cs188.jpg" alt="cs188">
-              </td>
-              <td width="75%" valign="center">
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
-                <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-                <br>
-                <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
-              </td>
-		    -->
-            </tr>
-            
+   .publication-link {
+       text-decoration: none;
+       color: inherit;
+       display: block;
+   }
 
-            <tr>
-              <td align="center" style="padding:20px;width:25%;vertical-align:middle">
-                <h2><a href="https://medium.com/@reginaldkmclean/reggies-first-blog-bb74eee88ec5">Blog</a> Posts</h2>
-              </td>
-              <td width="75%" valign="middle"> First post ... Coming
-              </td>
-	-->
-            </tr>
-            
-            
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
-  </body>
+   .publication-link:hover {
+       text-decoration: none;
+       color: inherit;
+   }
+
+   .publication-tile {
+       padding: 15px;
+       border: 1px solid #e0e0e0;
+       border-radius: 8px;
+       margin-bottom: 15px;
+       background: white;
+       transition: all 0.3s ease;
+       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+   }
+
+   .publication-tile:hover {
+       transform: scale(1.02);
+       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+   }
+
+   .publication-image {
+       width: 100%;
+       max-height: 200px;
+       object-fit: contain;
+       margin-bottom: 10px;
+   }
+
+   .publication-title {
+       font-size: 1.2em;
+       margin: 5px 0;
+   }
+
+   .publication-authors {
+       color: #666;
+       margin: 5px 0;
+   }
+
+   .publication-venue {
+       font-style: italic;
+       color: #444;
+       margin: 5px 0;
+   }
+
+   .publication-abstract {
+       margin: 5px 0;
+       line-height: 1.4;
+   }
+
+   .navbar { margin-bottom: 10px; }
+ </style>
+</head>
+<body>
+   <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+     <div class="container">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+       </div>
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="#publications">Publications</a></li> 
+           <li><a href="https://drive.google.com/drive/folders/1KM2fjUNGxntDzwmawULm3IYUg-Rk7tv2?usp=drive_link">CV</a></li> 
+         </ul>
+       </div>
+     </div>
+   </nav>
+   
+   <div class="container">
+       <div class="row">
+           <div class="col-md-8">
+               <h2>About Me</h2>               
+               <p>I am currently a 5th year PhD Candidate at Toronto Metropolitan University, under the supervision of Nariman Farsad and Isaac Woungang. Previously, I completed my MSc in Computer Science at Brock University under the supervision of Beatrice Ombuki-Berman, and I received my BSc. in Computer Science from Trent University.</p>
+               
+               <h2>Research</h2>
+               <p>My research aims to enable autonomous agents to acquire the ability to accomplish multiple tasks using a single policy. I am interested in deep reinforcement learning, multi-task reinforcement learning, continual/lifelong reinforcement learning, inverse reinforcement learning, and intrinsic motivation for reinforcement learning. In addition to reinforcement learning, I am interested in generative modelling, self-supervised learning, and vision-language models.</p>
+               
+               <h2>Past Experience</h2>
+               <p>I am currently a part-time lecturer in the Computer Science Department at Brock University. Previously, I was an intern at Royal Bank of Canada working on supporting their technical infrastructure using AIOps methods. Upon the completion of my MSc, I was the Lead Machine Learning Developer at Castle Ridge Asset Management.</p>
+               
+               <h2 id="publications">Publications</h2>
+               <div class="publication-tile">
+                   <img class="publication-image" src="../data/sal.png" alt="Publication diagram">
+                   <div class="publication-title"><b>Overcoming State and Action Space Disparities in Multi-Domain, Multi-Task Reinforcement Learning</b></div>
+                   <div class="publication-authors"><b>Reginald McLean</b>, Kai Yuan, Issac Woungang, Nariman Farsad, Pablo Samuel Castro</div>
+                   <div class="publication-venue">Accepted at Morphology-Aware Policy and Design Learning Workshop @ CoRL 2024</div>
+                   <div class="publication-abstract">
+                       Current multi-task reinforcement learning (MTRL) methods have the ability to perform a large number of tasks with a single policy. However when attempting to interact with a new domain, the MTRL agent would need to be re-trained due to differences in domain dynamics and structure. Because of these limitations, we are forced to train multiple policies even though tasks may have shared dynamics, leading to needing more samples and is thus sample inefficient. In this work, we explore the ability of MTRL agents to learn in various domains with various dynamics by simultaneously learning in multiple domains, without the need to fine-tune extra policies. In doing so we find that a MTRL agent trained in multiple domains induces an increase in sample efficiency of up to 70% while maintaining the overall success rate of the MTRL agent.
+                   </div>
+               </div>
+               
+               <a href="https://arxiv.org/abs/2405.19988" class="publication-link">
+                   <div class="publication-tile">
+                       <img class="publication-image" src="../data/vlc.png" alt="Publication diagram">
+                       <div class="publication-title"><b>Video Language Critic: Transferable Reward Functions for Language-Conditioned Robotics</b></div>
+                       <div class="publication-authors">Minttu Alakuijala, <b>Reginald McLean</b>, Isaac Woungang, Nariman Farsad, Samuel Kaski, Pekka Marttinen, Kai Yuan</div>
+                       <div class="publication-venue">Accepted at Workshop on Language and Robot Learning: Language as an Interface @ CoRL 2024</div>
+                       <div class="publication-abstract">
+                           Natural language is often the easiest and most convenient modality for humans to specify tasks for robots. However, learning to ground language to behavior typically requires impractical amounts of diverse, language-annotated demonstrations collected on each target robot. In this work, we aim to separate the problem of what to accomplish from how to accomplish it, as the former can benefit from substantial amounts of external observation-only data, and only the latter depends on a specific robot embodiment. To this end, we propose Video-Language Critic, a reward model that can be trained on readily available cross-embodiment data using contrastive learning and a temporal ranking objective, and use it to score behavior traces from a separate actor. When trained on Open X-Embodiment data, our reward model enables 2x more sample-efficient policy training on Meta-World tasks than a sparse reward only, despite a significant domain gap. Using in-domain data but in a challenging task generalization setting on Meta-World, we further demonstrate more sample-efficient training than is possible with prior language-conditioned reward models that are either trained with binary classification, use static images, or do not leverage the temporal information present in video data.
+                       </div>
+                   </div>
+               </a>
+               <div class="publication-tile">
+                   <img class="publication-image" src="../data/ecnn.jpg" alt="Publication diagram">
+                   <div class="publication-title"><b>Swarm Based Algorithms for Neural Network Training</b></div>
+                   <div class="publication-authors"><b>Reginald McLean</b>, Beatrice Ombuki-Berman, Andries P. Engelbrecht</div>
+                   <div class="publication-venue">Accepted at 2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC)</div>
+                   <div class="publication-abstract">
+			The purpose of this paper is to compare the abilities and deficiencies of various swarm based algorithms for training artificial neural networks. This paper uses seven algorithms, seven regression problems, sixteen classification problems, and four bounded activation functions to compare algorithms in regards to loss, accuracy, hidden unit saturation, and overfitting. It was found that particle swarm optimization is the top algorithm for regression problems based on loss, firefly algorithm was the top algorithm for classification problems when examining accuracy and loss. The ant colony optimization and artificial bee colony algorithms caused the least amount of hidden unit saturation, with the bacterial foraging optimization algorithm producing the least amount of overfitting.
+                   </div>
+               </div>
+
+           </div>
+
+           <div class="col-md-4">
+               <img class="img-responsive" src="../data/ReggieMcLean.jpg" alt="">
+               <div class="sidebar-name"><b>Reginald McLean</b></div>
+               <p><b>reginald k mclean at gmail dot com</b></p>
+               <p>Department of Computer Science<br>
+               Toronto Metropolitan University<br>
+               Toronto, Ontario<br>
+               Canada</p>
+               
+               <div class="social-links">
+                   <dd><a href="https://scholar.google.com/citations?user=gBBveasAAAAJ&hl=en&authuser=1">Google Scholar</a></dd>
+                   <dd><a href="https://x.com/reggiemclean95">Twitter</a></dd>
+                   <dd><a href="https://www.linkedin.com/in/reginaldmclean/">LinkedIn</a></dd>
+               </div>
+           </div>
+       </div>
+   </div>
+</body>
 </html>
