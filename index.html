@@ -155,11 +155,12 @@
                </div>
                </a>
                
-               <a href="https://arxiv.org/abs/2405.19988" class="publication-link">
+               <a href="https://openreview.net/forum?id=jJOVpnNrEp" class="publication-link">
                    <div class="publication-tile">
                        <img class="publication-image" src="../data/vlc.png" alt="Publication diagram">
                        <div class="publication-title"><b>Video Language Critic: Transferable Reward Functions for Language-Conditioned Robotics</b></div>
                        <div class="publication-authors">Minttu Alakuijala, <b>Reginald McLean</b>, Isaac Woungang, Nariman Farsad, Samuel Kaski, Pekka Marttinen, Kai Yuan</div>
+                       <div class="publication-venue">Accepted at Transactions on Machine Learning Research</div>
                        <div class="publication-venue">Accepted at Workshop on Language and Robot Learning: Language as an Interface @ CoRL 2024</div>
                        <div class="publication-abstract">
                            Natural language is often the easiest and most convenient modality for humans to specify tasks for robots. However, learning to ground language to behavior typically requires impractical amounts of diverse, language-annotated demonstrations collected on each target robot. In this work, we aim to separate the problem of what to accomplish from how to accomplish it, as the former can benefit from substantial amounts of external observation-only data, and only the latter depends on a specific robot embodiment. To this end, we propose Video-Language Critic, a reward model that can be trained on readily available cross-embodiment data using contrastive learning and a temporal ranking objective, and use it to score behavior traces from a separate actor. When trained on Open X-Embodiment data, our reward model enables 2x more sample-efficient policy training on Meta-World tasks than a sparse reward only, despite a significant domain gap. Using in-domain data but in a challenging task generalization setting on Meta-World, we further demonstrate more sample-efficient training than is possible with prior language-conditioned reward models that are either trained with binary classification, use static images, or do not leverage the temporal information present in video data.
